@@ -1,0 +1,146 @@
+/* @import url(https://fonts.googleapis.com/css?family=Playfair+Display); */
+
+:root {
+  --firstColor: white;
+  --secondColor: rgb(172, 172, 172);
+  --thirdColor: black;
+  --fourthColor: #3539c2;
+  --fifthColor: #222680;
+  --sixthColor: #454bff;
+  --seventhColor: #111340;
+  --eighthColor: #3e44e6;
+  --ninthColor: #6d8592;
+}
+
+body {
+  background: var(--firstColor);
+  color: var(--thirdColor);
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Courier New", Courier, monospace !important;
+  letter-spacing: 0.25rem !important;
+}
+
+.text-red {
+  color: var(--fourthColor);
+}
+
+.default-background {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgba(51, 50, 50, 0.42), rgba(51, 50, 50, 0.42));
+  background-position: center;
+  background-size: cover;
+  opacity: 1 !important;
+}
+.about-background {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  opacity: 1 !important;
+  background-position: center;
+  background-size: cover;
+  /* background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ); */
+}
+
+.btn-color {
+  color: var(--fifthColor) !important;
+  border-color: var(--fifthColor);
+}
+
+.btn-color:hover {
+  background: var(--fifthColor);
+  color: white !important;
+}
+
+.subtitle-color {
+  color: rgb(92, 92, 92);
+}
+
+.footer {
+  background: rgb(63, 63, 63);
+  color: white;
+}
+
+/* services */
+.services {
+  padding-top: 5rem;
+  padding-bottom: 6rem;
+}
+.services {
+  background: var(--seventhColor);
+  color: white;
+  text-align: center;
+}
+.services-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+.service span {
+  display: inline-block;
+  /* color: var(--primaryColor); */
+  color: white;
+  font-size: 1.9rem;
+  margin-bottom: 1.5rem;
+}
+.services h5,
+h6 {
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+  font-weight: 800;
+}
+.services p {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services p {
+    width: 100%;
+  }
+}
+/*end of services */
+
+.submit {
+  background: var(--fifthColor);
+  color: white;
+}
+.submit:hover {
+  background: white;
+  color: rgb(63, 63, 63);
+  border: black 1px solid;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.navbar-links {
+  color: var(--thirdColor) !important;
+}
+
+.navbar-brand {
+  height: 25%;
+}
