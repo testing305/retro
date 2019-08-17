@@ -1,4 +1,5 @@
 /* @import url(https://fonts.googleapis.com/css?family=Playfair+Display); */
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
 
 :root {
   --firstColor: white;
@@ -143,4 +144,12 @@ h6 {
 
 .navbar-brand {
   height: 25%;
+}
+
+.retro-font {
+  font-family: "Press Start 2P", cursive !important;
+}
+
+.shrunk-logo {
+  width: 85%;
 }

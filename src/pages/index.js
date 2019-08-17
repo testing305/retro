@@ -3,27 +3,27 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import BackgroundSection from "../components/Globals/BackgroundSection"
-import Info from "../components/Home/Info"
-import Services from "../components/Home/Services"
-import Gallery from "../components/Home/Gallery"
+// import Info from "../components/Home/Info"
+// import Services from "../components/Home/Services"
+// import Gallery from "../components/Home/Gallery"
 import ContactForm from "../components/Home/ContactForm"
 import Title from "../components/Globals/Title"
-import InfoIndex from "../components/Home/InfoIndex"
-import GatsbyGallery from "../components/Home/GatsbyGallery"
+// import InfoIndex from "../components/Home/InfoIndex"
+// import GatsbyGallery from "../components/Home/GatsbyGallery"
 
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="Your main title w/ full width background image"
+      title="Going Retro"
       styleClass="default-background"
     />
     {/* <Title title="about us" /> */}
-    <InfoIndex />
+    {/* <InfoIndex />
     <GatsbyGallery />
     <Services />
-    <Gallery />
+    <Gallery /> */}
 
     <ContactForm />
   </Layout>
@@ -31,11 +31,7 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(
-      relativePath: {
-        eq: "homeGallery/adult-architect-architectural-design-1260309.jpeg"
-      }
-    ) {
+    img: file(relativePath: { eq: "homeGallery/home-banner-img.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

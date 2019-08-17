@@ -1,12 +1,12 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../images/your-logo-here-8.png"
+import logo from "../../images/homeGallery/retro-logo2.png"
 import NavbarIcons from "../Globals/NavbarIcons"
 
 export default class Navbar extends Component {
   state = {
     navbarOpen: false,
-    css: "collapse navbar-collapse",
+    css: "collapse navbar-collapse retro-font",
     links: [
       {
         id: 1,
@@ -42,7 +42,7 @@ export default class Navbar extends Component {
     return (
       <nav className="navbar navbar-expand-sm bg-white navbar-light">
         <Link to="/" className="navbar-brand">
-          <img src={logo} alt="logo" />
+          <img src={logo} alt="logo" className="shrunk-logo" />
         </Link>
         <button
           className="navbar-toggler "
@@ -55,7 +55,7 @@ export default class Navbar extends Component {
           <ul className="navbar-nav mx-auto ">
             {this.state.links.map(link => {
               return (
-                <li key={link.id} className="nav-item ">
+                <li key={link.id} className="nav-item ml-5">
                   <Link
                     to={link.path}
                     className="nav-link text-capitalize navbar-links"
@@ -66,7 +66,7 @@ export default class Navbar extends Component {
               )
             })}
           </ul>
-          <NavbarIcons />
+          {/* <NavbarIcons /> */}
         </div>
       </nav>
     )
