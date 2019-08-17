@@ -41,7 +41,7 @@ export default function ContactForm() {
             </div>
             {/* {description} */}
             <div className="form-group">
-              <label htmlFor="description">Message</label>
+              <label htmlFor="description">Messege</label>
               <textarea
                 name="description"
                 id="description"
@@ -50,7 +50,7 @@ export default function ContactForm() {
                 placeholder="your messege here..."
               />
             </div>
-            <p>For direct messages: contact@ericpidal.com</p>
+
             {/* {submit} */}
             <div data-netlify-recaptcha="true" />
             <button
