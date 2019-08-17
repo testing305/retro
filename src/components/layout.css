@@ -150,6 +150,10 @@ h6 {
 .retro-font {
   font-family: "Press Start 2P", cursive !important;
 }
+.background-retro-font {
+  font-family: "Press Start 2P", cursive !important;
+  font-size: 1.5rem;
+}
 
 .shrunk-logo {
   width: 100%;
