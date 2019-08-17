@@ -52,13 +52,13 @@ export default class Navbar extends Component {
           <span className="navbar-toggler-icon  " />
         </button>
         <div className={this.state.css}>
-          <ul className="navbar-nav  ">
+          <ul className="navbar-nav  mx-auto">
             {this.state.links.map(link => {
               return (
-                <li key={link.id} className="nav-item ml-5">
+                <li key={link.id} className="nav-item ">
                   <Link
                     to={link.path}
-                    className="nav-link text-capitalize navbar-links"
+                    className="nav-link text-capitalize navbar-links "
                   >
                     {link.text}
                   </Link>
