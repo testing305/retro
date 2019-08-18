@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../images/homeGallery/erics-logo-5.png"
+import logo from "../../images/homeGallery/retro-logo-9.png"
 import NavbarIcons from "../Globals/NavbarIcons"
 
 export default class Navbar extends Component {
