@@ -15,18 +15,18 @@ export default class Navbar extends Component {
       },
       {
         id: 2,
-        path: "/",
+        path: "/about",
         text: "about",
       },
       {
         id: 3,
-        path: "/",
+        path: "/contact",
         text: "contact",
       },
       {
         id: 4,
-        path: "/",
-        text: "Español",
+        path: "/gatsby",
+        text: "gatsby",
       },
     ],
   }
