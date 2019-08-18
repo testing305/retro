@@ -15,18 +15,18 @@ export default class Navbar extends Component {
       },
       {
         id: 2,
-        path: "/about",
+        path: "/",
         text: "about",
       },
       {
         id: 3,
-        path: "/contact",
+        path: "/",
         text: "contact",
       },
       {
         id: 4,
-        path: "/gatsby",
-        text: "gatsby",
+        path: "/",
+        text: "",
       },
     ],
   }
@@ -51,7 +51,7 @@ export default class Navbar extends Component {
         >
           <span className="navbar-toggler-icon  " />
         </button>
-        {/* <div className={this.state.css}>
+        <div className={this.state.css}>
           <ul className="navbar-nav  mx-auto">
             {this.state.links.map(link => {
               return (
@@ -65,9 +65,9 @@ export default class Navbar extends Component {
                 </li>
               )
             })}
-          </ul> */}
-        {/* <NavbarIcons /> */}
-        {/* </div> */}
+          </ul>
+          {/* <NavbarIcons /> */}
+        </div>
       </nav>
     )
   }
