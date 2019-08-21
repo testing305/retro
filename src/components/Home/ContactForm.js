@@ -59,6 +59,10 @@ export default function ContactForm() {
             >
               submit
             </button>
+            <br />
+            <br />
+
+            <p className="px-auto">dm: hola@ericpidal.com</p>
           </form>
         </div>
       </div>
