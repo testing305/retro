@@ -56,7 +56,7 @@ export default class Footer extends Component {
 
 const FooterWrapper = styled.footer`
   padding: 1rem 0;
-  background: rgb(114, 110, 110);
+  background: rgb(156, 139, 120);
   .icons {
     width: 10rem;
     display: flex;
