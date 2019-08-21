@@ -38,7 +38,7 @@ h5 {
   align-items: center;
   justify-content: center;
   /* background: linear-gradient(rgba(51, 50, 50, 0.42), rgba(51, 50, 50, 0.42)); */
-  background-position: right;
+  background-position: center;
   background-size: cover;
   opacity: 1 !important;
   padding-bottom: 10rem !important;
