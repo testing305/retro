@@ -7,7 +7,7 @@ import BackgroundSection from "../components/Globals/BackgroundSection"
 // import Services from "../components/Home/Services"
 // import Gallery from "../components/Home/Gallery"
 import ContactForm from "../components/Home/ContactForm"
-import Title from "../components/Globals/Title"
+// import Title from "../components/Globals/Title"
 // import InfoIndex from "../components/Home/InfoIndex"
 // import GatsbyGallery from "../components/Home/GatsbyGallery"
 
@@ -16,7 +16,7 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
-      title="retro mood"
+      // title="retro mood"
       styleClass="default-background"
     />
     {/* <Title title="about us" /> */}
@@ -31,7 +31,7 @@ const IndexPage = ({ data }) => (
 
 export const query = graphql`
   {
-    img: file(relativePath: { eq: "homeGallery/home-banner-img.jpg" }) {
+    img: file(relativePath: { eq: "homeGallery/coral-gables.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_tracedSVG

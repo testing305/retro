@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import { Link } from "gatsby"
-import logo from "../../images/homeGallery/retro-logo-9.png"
+import logo from "../../images/homeGallery/logo-displayfair-3.png"
 import NavbarIcons from "../Globals/NavbarIcons"
 
 export default class Navbar extends Component {
@@ -52,7 +52,7 @@ export default class Navbar extends Component {
           <span className="navbar-toggler-icon  " />
         </button>
         <div className={this.state.css}>
-          <ul className="navbar-nav  mx-auto">
+          {/* <ul className="navbar-nav  mx-auto">
             {this.state.links.map(link => {
               return (
                 <li key={link.id} className="nav-item ">
@@ -65,7 +65,7 @@ export default class Navbar extends Component {
                 </li>
               )
             })}
-          </ul>
+          </ul> */}
           {/* <NavbarIcons /> */}
         </div>
       </nav>
