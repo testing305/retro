@@ -62,7 +62,7 @@ export default function ContactForm() {
           </form>
           <br />
           <br />
-          <p className="dm">dm:hola@ericpidal.com</p>
+          <p className="dm">dm: hola@ericpidal.com</p>
         </div>
       </div>
     </section>

@@ -44,13 +44,13 @@ export default class Navbar extends Component {
         <Link to="/" className="navbar-brand">
           <img src={logo} alt="logo" className="shrunk-logo" />
         </Link>
-        <button
+        {/* <button
           className="navbar-toggler "
           type="button"
           onClick={this.navbarHandler}
         >
           <span className="navbar-toggler-icon  " />
-        </button>
+        </button> */}
         <div className={this.state.css}>
           {/* <ul className="navbar-nav  mx-auto">
             {this.state.links.map(link => {

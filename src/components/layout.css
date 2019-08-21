@@ -37,7 +37,7 @@ h5 {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(rgba(51, 50, 50, 0.42), rgba(51, 50, 50, 0.42));
+  /* background: linear-gradient(rgba(51, 50, 50, 0.42), rgba(51, 50, 50, 0.42)); */
   background-position: right center;
   background-size: cover;
   opacity: 1 !important;
@@ -49,7 +49,7 @@ h5 {
   align-items: center;
   justify-content: top;
   opacity: 1 !important;
-  background-position: center;
+  background-position: right;
   background-size: cover;
   /* background: linear-gradient(
     rgba(255, 255, 255, 0.5),
@@ -72,8 +72,7 @@ h5 {
 }
 
 .footer {
-  background: rgb(63, 63, 63);
-  color: white;
+  background: rgb(114, 110, 110);
 }
 
 /* services */
@@ -126,7 +125,7 @@ h6 {
 /*end of services */
 
 .submit {
-  background: var(--fifthColor);
+  background: rgb(102, 65, 65);
   color: white;
 }
 .submit:hover {
