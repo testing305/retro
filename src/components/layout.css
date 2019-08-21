@@ -38,7 +38,7 @@ h5 {
   align-items: center;
   justify-content: center;
   /* background: linear-gradient(rgba(51, 50, 50, 0.42), rgba(51, 50, 50, 0.42)); */
-  background-position: center;
+  background-position: right;
   background-size: cover;
   opacity: 1 !important;
   padding-bottom: 10rem !important;
@@ -49,7 +49,7 @@ h5 {
   align-items: center;
   justify-content: top;
   opacity: 1 !important;
-  /* background-position: right; */
+  background-position: right;
   background-size: cover;
   /* background: linear-gradient(
     rgba(255, 255, 255, 0.5),
