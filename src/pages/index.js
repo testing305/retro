@@ -13,7 +13,7 @@ import ContactForm from "../components/Home/ContactForm"
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Hola" />
     <BackgroundSection
       img={data.img.childImageSharp.fluid}
       // title="retro mood"
