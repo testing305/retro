@@ -39,7 +39,7 @@ h5 {
   justify-content: center;
   /* background: linear-gradient(rgba(51, 50, 50, 0.42), rgba(51, 50, 50, 0.42)); */
   background-size: cover;
-  background-position: top center !important;
+  background-position: bottom center !important;
   opacity: 1 !important;
   /* padding-bottom: 10rem !important; */
 }
