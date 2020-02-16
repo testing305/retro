@@ -25,7 +25,7 @@ export default function ContactForm() {
                 className="form-control"
                 name="name"
                 id="name"
-                placeholder="j. smith"
+                placeholder="your name here..."
               />
             </div>
             {/* {email} */}
@@ -36,7 +36,7 @@ export default function ContactForm() {
                 className="form-control"
                 name="email"
                 id="email"
-                placeholder="email@email.com"
+                placeholder="your email here..."
               />
             </div>
             {/* {description} */}
